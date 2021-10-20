@@ -5,6 +5,7 @@ import Jumbotron from "./Image.jpg"
 import Images from './Images'
 import Cardnames from './Cardnames'
 import Cardtext from './Cardtext'
+import Footer from './/Footer'
 
 const Cards = () => {
     return (
@@ -16,8 +17,11 @@ const Cards = () => {
             <h5 className="mb-0"><Cardnames/></h5><span className="small text-uppercase text-muted">Loyal Customer</span>
             <ul className="social mb-0 list-inline mt-3"></ul>
                 <Cardtext/>
+            
         </div>
+        <Footer/>
         </div>
+  
         </div>
     )
 }

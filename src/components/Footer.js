@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div >
             <Row className="mx-0 ">
-                <Button as={Col} variant="primary" onClick={() => window.location.reload(false)} className="btn">Button #1</Button>
+                <Button as={Col} variant="primary" onClick={() => window.location.reload(false)} className="btn">New Quote </Button>
                 
             </Row>
         </div>
